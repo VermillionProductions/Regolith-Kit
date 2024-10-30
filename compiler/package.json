@@ -1,0 +1,24 @@
+{
+  "name": "@vermillionprods/compiler",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bedrock",
+    "addon",
+    "regolith"
+  ],
+  "author": "NxmbersCib",
+  "license": "MIT",
+  "types": "./main.d.ts",
+  "description": "",
+  "dependencies": {
+    "@swc/core": "^1.7.39",
+    "esbuild": "^0.24.0",
+    "glob": "^10.4.5",
+    "json5": "^2.2.3"
+  }
+}
