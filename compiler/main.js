@@ -91,7 +91,7 @@ const manifests = {
     resourcePack: RPManifestTemplate,
 };
 
-const packVersion = vermillionAddon.version + "+" + vermillionAddon.target;
+const packVersion = typeof vermillionAddon.version === "string" ?  vermillionAddon.version + "+" + vermillionAddon.target : vermillionAddon.version;
 const packEngine = vermillionAddon.engine
     .trim()
     .split(".")
